@@ -92,9 +92,9 @@ function game(playermove) {
 
   movs.innerHTML = `
     You
-    <img src="./Styles/${playermove}-emoji.png" class="move-icon">
+    <img src="../Styles/${playermove}-emoji.png" class="move-icon">
     Computer
-    <img src="./Styles/${pcnumb}-emoji.png" class="move-icon">
+    <img src="../Styles/${pcnumb}-emoji.png" class="move-icon">
   `;
 
   localStorage.setItem('movs', JSON.stringify(movs.innerHTML));
